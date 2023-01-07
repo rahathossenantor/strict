@@ -1,0 +1,372 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 320px) and (max-width: 575px){
+    .nav-link.active{
+        margin-top: 10px;
+    }
+    .banner_content h1{
+        font-size: 80px;
+        margin: 86px 0 22px 0;
+    }
+    .banner_content h1::after{
+        top: 95px;
+        left: 2%;
+        height: 2px;
+        width: 282px;
+    }
+    .banner_content p {
+        font-size: 15px;
+        margin-bottom: 34px;
+    }
+    .banner_content a {
+        font-size: 15px;
+    }
+    .banner_btn {
+        padding: 8px 23px;
+        margin-bottom: 104px;
+    }
+    .about_content {
+        padding: 55px 0 44px 0;
+    }
+    .about_content h2 {
+        font-size: 34px;
+        margin-bottom: 14px;
+    }
+    .about_content p {
+        font-size: 15px;
+    }
+    .feature_content {
+        padding: 23px 0;
+    }
+    .feature_content h4 {
+        font-size: 22px;
+        margin: 20px 0 10px 0;
+    }
+    .feature_content p {
+        font-size: 13px;
+        margin: 0;
+    }
+    #work {
+        padding: 35px 0;
+    }
+    .work_text h2 {
+        font-size: 30px;
+        margin-top: 13px;
+    }
+    .work_text p {
+        margin-bottom: 36px;
+    }
+    #full_name, #email_addr {
+        width: 290px;
+    }
+    #message {
+        height: 180px;
+        width: 290px;
+    }
+    #sbmt_btn {
+        padding: 7px 29px;
+        font-size: 15px;
+        margin-left: 25px;
+    }
+    footer {
+        padding: 14px 0;
+    }
+    .msg_header h2 {
+        font-size: 30px;
+    }
+    .footer_text p{
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: #999999;
+    }
+    .footer_text,
+    .footer_icon {
+        text-align: center;
+    }
+}
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){
+    .nav-link.active{
+        margin-top: 10px;
+    }
+    .banner_content h1{
+        font-size: 87px;
+        margin: 86px 0 22px 0;
+    }
+    .banner_content h1::after{
+        top: 101px;
+        left: 20%;
+        height: 2px;
+        width: 310px;
+    }
+    .banner_content p {
+        font-size: 19px;
+        margin-bottom: 34px;
+    }
+    .banner_content a {
+        font-size: 18px;
+    }
+    .banner_btn {
+        padding: 8px 23px;
+        margin-bottom: 104px;
+    }
+    /* Banner part start */
+    .about_content {
+        padding: 60px 0 48px 0;
+    }
+    .about_content h2 {
+        font-size: 39px;
+        margin-bottom: 16px;
+    }
+    .about_content p {
+        font-size: 17px;
+        line-height: 29px;
+    }
+    /* Banner part end */
+
+    /* Feature part start */
+    .feature_content {
+        padding: 24px 0;
+    }
+    .feature_content h4 {
+        font-size: 24px;
+        margin: 20px 0 10px 0;
+    }
+    .feature_content p {
+        font-size: 18px;
+        margin: 0;
+    }
+    /* Feature part end */
+
+    /* Work part start */
+    #work {
+        padding: 35px 0;
+    }
+    .work_text h2 {
+        font-size: 36px;
+        margin-top: 15px;
+    }
+    .work_text p {
+        margin-bottom: 40px;
+    }
+    /* Work part end */
+    .footer_text p {
+        font-size: 17px;
+    }
+}
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){
+    /* Banner part start */
+    .nav-link.active{
+        margin-top: 10px;
+    }
+    .banner_main{
+        padding-top: 45px;
+    }
+    .banner_content h1 {
+        font-size: 92px;
+        margin: 92px 0 30px 0;
+    }
+    .banner_content h1::after {
+        top: 115px;
+        left: 21%;
+        height: 2px;
+        width: 393px;
+    }
+    .banner_content p {
+        font-size: 17px;
+        margin-bottom: 39px;
+    }
+    .banner_btn {
+        margin-bottom: 73px;
+    }
+    .banner_down {
+        margin-bottom: 35px;
+    }
+    /* Banner part end */
+
+    /* About part start */
+    .about_content {
+        padding: 51px 0 51px 0;
+    }
+    .about_content h2 {
+        font-size: 38px;
+    }
+    .about_content p {
+        font-size: 18px;
+        line-height: 31px;
+    }
+    /* About part end */
+
+    /* Feature part start */
+    .feature_content {
+        padding: 37px 0;
+    }
+    .feature_content h4 {
+        font-size: 25px;
+        margin: 20px 0 15px 0;
+    }
+    .feature_content p {
+        font-size: 16px;
+        margin: 0;
+    }
+    /* Feature part end */
+
+    /* Work part start */
+    #work {
+        padding: 35px 0;
+    }
+    .work_text h2 {
+        font-size: 38px;
+        margin-top: 15px;
+    }
+    .work_text p {
+        margin-bottom: 40px;
+    }
+    /* Work part end */
+}
+
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+    .banner_content h1 {
+        font-size: 116px;
+        margin: 117px 0 23px 0;
+    }
+    .banner_content h1::after {
+        top: 127px;
+        left: 23%;
+    }
+    .banner_content p {
+        margin-bottom: 35px;
+    }
+    .banner_btn {
+        margin-bottom: 110px;
+    }
+    .banner_down {
+        margin-bottom: 71px;
+    }
+    .about_content {
+        padding: 67px 0 58px 0;
+    }
+    .about_content h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .about_content p {
+        font-size: 21px;
+        line-height: 33px;
+    }
+    .feature_content h4 {
+        font-size: 24px;
+        margin: 22px 0 15px 0;
+    }
+    .feature_content p {
+        font-size: 18px;
+        margin: 0;
+    }
+    .feature_content {
+        padding: 55px 0;
+    }
+
+    /* Work part start */
+    #work {
+        padding: 40px 0;
+    }
+    .work_text h2 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .work_text p {
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+    /* Work part end */
+    .msg_header h2 {
+        font-size: 40px;
+    }
+    .msg_header p {
+        font-size: 18px;
+    }
+}
+
+
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px){
+    .banner_content h1::after {
+        top: 131px;
+        left: 27.5%;
+    }
+    .banner_content p {
+        margin-bottom: 27px;
+    }
+    .banner_btn {
+        margin-bottom: 125px;
+    }
+
+    /* Work part start */
+    #work {
+        padding: 50px 0;
+    }
+    .work_text h2 {
+        font-size: 43px;
+        margin-top: 20px;
+    }
+    .work_text p {
+        margin-bottom: 45px;
+        font-size: 18px;
+    }
+    /* Work part end */
+    .msg_header h2 {
+        font-size: 43px;
+    }
+    .msg_header p{
+        font-size: 18px;
+    }
+}
+
+
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .banner_content h1::after {
+        top: 131px;
+        left: 30.5%;
+    }
+    .banner_content p {
+        margin-bottom: 27px;
+    }
+
+    /* Work part start */
+    #work {
+        padding: 50px 0;
+    }
+    .work_text h2 {
+        font-size: 43px;
+        margin-top: 20px;
+    }
+    .work_text p {
+        margin-bottom: 45px;
+        font-size: 18px;
+    }
+    /* Work part end */
+    .msg_header h2 {
+        font-size: 43px;
+    }
+    .msg_header p{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,232 @@
+@font-face {
+    font-family: lato-regular;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: lato-bold;
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+/* Navigation part start */
+.navbar-brand{
+    font-family: lato-bold;
+}
+.nav-link{
+    font-family: lato-regular;
+}
+/* Navigation part end */
+
+
+/* Banner part start */
+#banner{
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_main{
+    padding-top: 218px;
+}
+.banner_content h1{
+    font-family: lato-regular;
+    color: white;
+    font-size: 120px;
+    margin: 130px 0 30px 0;
+    position: relative;
+}
+.banner_content h1::after{
+    content: "";
+    position: absolute;
+    top: 115px;
+    left: 21%;
+    height: 2px;
+    width: 500px;
+    background-color: #15a4fa;
+}
+.banner_content p{
+    font-family: lato-bold;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.banner_content a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.banner_btn{
+    padding: 9px 27px;
+    border: 1.5px solid #15a4fa;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 140px;
+}
+.banner_down{
+    display: inline-block;
+    margin-bottom: 90px;
+}
+/* Banner part end */
+
+
+/* About part start */
+#about{
+    background-color: #f6f9f9;
+}
+.about_content{
+    padding: 65px 0 85px 0;
+}
+.about_content h2{
+    font-size: 43px;
+    font-family: lato-regular;
+    margin-bottom: 19px;
+}
+.about_content p{
+    font-size: 22px;
+    font-family: lato-regular;
+    line-height: 35px;
+    color: #999999;
+}
+/* About part end */
+
+/* Feature part start */
+.feature_content{
+    padding: 60px 0;
+}
+.feature_content h4{
+    font-size: 26px;
+    font-family: lato-regular;
+    margin: 20px 0 14px 0;
+}
+.feature_content p{
+    font-size: 18px;
+    font-family: lato-regular;
+    margin-bottom: 0;
+    color: #999999;
+}
+/* Feature part end */
+
+
+/* Work part start */
+#work{
+    padding: 80px 0;
+    background-color: #f6f9f9;
+}
+.work_text h2, p{
+    font-family: lato-regular;
+}
+.work_text h2{
+    color: #2d3950;
+}
+.work_text p{
+    color: #909090;
+    margin-bottom: 60px;
+}
+.work_img{
+    position: relative;
+    margin-bottom: 20px;
+}
+.work_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(44, 172, 247, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all linear 0.3s;
+}
+.work_overlay a{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 1.5px;
+}
+.work_img:hover .work_overlay{
+    transform: scale(1);
+    transition: all linear 0.3s;
+}
+/* Work part end */
+
+/* MSG part start */
+#msg_box{
+    background-image: url("../images/msg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 80px 0;
+}
+.msg_header h2{
+    font-size: 38px;
+}
+.msg_header h2, p{
+    font-family: lato-regular;
+    color: white;
+}
+.msg_header p{
+    color: #999999;
+}
+.msg_form{
+    font-family: lato-regular;
+}
+#full_name,
+#email_addr{
+    height: 40px;
+    width: 400px;
+    padding: 20px;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+#message{
+    color: #999999;
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.msg_form form label{
+    color: white;
+}
+#sbmt_btn{
+    padding: 6px 27px;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #15a4fa;
+    border-radius: 4px;
+    margin-left: 131px;
+}
+/* MSG part end */
+
+/* Footer part start */
+footer{
+    padding: 20px 0;
+}
+.footer_text p{
+    color: #999999;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.footer_icon{
+    text-align: right;
+}
+.footer_icon a{
+    text-decoration: none;
+    padding: 5px 9px 5px 9px;
+    color: white;
+    background-color: #15a4fa;
+    display: inline-block;
+}
+/* Footer part end */
